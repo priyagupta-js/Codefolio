@@ -3,7 +3,14 @@ function Navbar ()
     return
     (
         <>
-            <h1>Navbar</h1>
+            <div className="">
+                <div className="nav-left">
+
+                </div>
+                <div className="nav-right">
+                    
+                </div>
+            </div>
         </>
     );
 }
