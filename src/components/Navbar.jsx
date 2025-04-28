@@ -5,10 +5,10 @@ function Navbar ()
         <>
             <div className="">
                 <div className="nav-left">
-
+Logo
                 </div>
                 <div className="nav-right">
-                    
+                    Pages
                 </div>
             </div>
         </>
