@@ -2,3 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --color-bg:#0d1117;
+    --color-navbar-bg:#1e1e1e;
+    --color-accent: #4ca3ed;
+    --color-text:#ffffff;
+    --font-main:'Inter',sans-serif;
+    --font-heading:'Space Grotesk' ,Geometric sans-serif;
+}
+
+.navbar-container
+{
+    background-color: var(--color-navbar-bg);
+    color: var(--color-text);
+    @apply h-20 text-xl;
+    
+}
+.nav-menuItems
+{
+@apply flex justify-between items-center mx-auto max-w-7xl px-4 h-full;
+}
+
+.nav-right
+{
+@apply flex items-center
+}
+.right-menuItems
+{
+    
+    @apply flex gap-6;
+}
+
+.btn-primary
+{
+    @apply ml-6
+}

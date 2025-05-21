@@ -3,20 +3,18 @@ import "../src/index.css";
 function App() {
 
   return (
-    <>
-      <h1 className="text-4xl font-bold underline text-blue-500">
-      Codefolio - Portfolio
-      </h1>
+    <div className="">
       <Homepage />
-    </>
+    </div>
   )
 }
 
-export default App
+export default App;
+
 /* 
- backgroundcolor : 
- text color: 
-button color:
+ backgroundcolor : #0d1117
+ text color: #ffffff
+button color: #4ca3ed
 font-family:Sans-serif , Geometric sans-serif
 Headings: Space Grotesk
 Body Text: Inter
