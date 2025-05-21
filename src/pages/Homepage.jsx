@@ -7,9 +7,13 @@ function Homepage()
     return(
         <>
             <Navbar />
+            <div className="body-container">
+
+            
             <About />
             <Skills />
             <Projects />
+            </div>
         </>
     );
 }

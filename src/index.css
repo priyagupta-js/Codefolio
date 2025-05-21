@@ -4,11 +4,16 @@
 
 :root{
     --color-bg:#0d1117;
-    --color-navbar-bg:#1e1e1e;
+    --color-navbar-bg:#2b2a2a;
     --color-accent: #4ca3ed;
     --color-text:#ffffff;
     --font-main:'Inter',sans-serif;
     --font-heading:'Space Grotesk' ,Geometric sans-serif;
+}
+ .body-container
+{
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 
 .btn-primary
