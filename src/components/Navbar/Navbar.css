@@ -1,0 +1,27 @@
+
+.navbar-container
+{
+    background-color: var(--color-navbar-bg);
+    color: var(--color-text);
+    @apply h-20 text-xl;
+    
+}
+.nav-menuItems
+{
+@apply flex justify-between items-center mx-auto max-w-7xl px-4 h-full;
+}
+
+.nav-right
+{
+@apply flex items-center
+}
+.right-menuItems
+{
+    
+    @apply flex gap-8;
+}
+
+.btn-primary
+{
+    @apply ml-6 
+}

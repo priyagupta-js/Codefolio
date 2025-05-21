@@ -12,7 +12,7 @@ function Navbar() {
             <li>Skills</li>
             <li>Projects</li>
           </ul>
-          <button className="btn-primary" type="">Connect</button>
+          <button className="btn-primary" type="button">CONNECT</button>
         </div>
       </div>
     </nav>
