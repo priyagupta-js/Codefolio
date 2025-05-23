@@ -13,12 +13,17 @@
 
 .nav-right
 {
-@apply flex items-center
+@apply flex items-center ;
 }
 .right-menuItems
 {
     
     @apply flex gap-8;
+}
+
+.menuItems
+{
+    @apply hover:underline underline-offset-4 cursor-pointer;
 }
 
 .btn-primary

@@ -8,9 +8,9 @@ function Navbar() {
         <div className="nav-left">PRIYA</div>
         <div className="nav-right">
           <ul className="right-menuItems">
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
+            <li className="menuItems">About</li>
+            <li className="menuItems">Skills</li>
+            <li className="menuItems">Projects</li>
           </ul>
           <button className="btn-primary" type="button">CONNECT</button>
         </div>
