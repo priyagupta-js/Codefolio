@@ -21,3 +21,7 @@
     background-color: var(--color-accent);
     @apply px-2.5  py-2.5 tracking-wide rounded-lg
 }
+.section-heading
+{
+    @apply text-4xl ;
+}
