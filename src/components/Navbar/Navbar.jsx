@@ -1,4 +1,5 @@
 import "../../../src/index.css";
+import Button from "../Button.jsx";
 import "../Navbar/Navbar.css";
 
 function Navbar() {
@@ -12,7 +13,7 @@ function Navbar() {
             <li className="menuItems">Skills</li>
             <li className="menuItems">Projects</li>
           </ul>
-          <button className="btn-primary" type="button">CONNECT</button>
+          <Button />
         </div>
       </div>
     </nav>

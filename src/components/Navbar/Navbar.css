@@ -23,7 +23,7 @@
 
 .menuItems
 {
-    @apply hover:underline underline-offset-4 cursor-pointer;
+    @apply hover:underline underline-offset-4 cursor-pointer decoration-blue-500;
 }
 
 .btn-primary
