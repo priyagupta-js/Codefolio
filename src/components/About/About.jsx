@@ -6,8 +6,12 @@ function About() {
         <h1>About</h1>
       </div>
       <div className="about-left">
+      <div className="about-image"></div>
       </div>
       <div className="about-right">
+      <div className="about-me">
+        
+      </div>
       </div>
     </div>
   );
