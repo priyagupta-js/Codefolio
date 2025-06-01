@@ -9,6 +9,7 @@ function Navbar() {
         <div className="nav-left">PRIYA</div>
         <div className="nav-right">
           <ul className="right-menuItems">
+          <li className="menuItems">Home</li>
             <li className="menuItems">About</li>
             <li className="menuItems">Skills</li>
             <li className="menuItems">Projects</li>
