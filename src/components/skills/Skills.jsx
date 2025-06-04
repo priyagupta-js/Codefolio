@@ -13,3 +13,6 @@ function Skills ()
 }
 
 export default Skills;
+
+// HTML , CSS , JS , BOOTSTRAP , TAILWINDCSS , NODEJS ,EXPRESSJS ,MONGODB , MYSQL ,FIREBASE ,
+// PYTHON ,JAVA , REDUX , github , netlify , 
