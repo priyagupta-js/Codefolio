@@ -1,10 +1,10 @@
 import '../../src/index.css';
 
-function Button(props)
+function Button({ text , onClick , type="button", className=""})
 {
     return(
         <div>
-            <button className="btn-primary" type={props.type || button}>{props.text || props.children}</button>
+            <button className={`btn-primary ${className}`} onClick={onClick} type={type}>{text || children}</button>
         </div>
     );
 }
