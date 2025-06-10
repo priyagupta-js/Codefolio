@@ -25,3 +25,8 @@
 {
     @apply text-4xl ;
 }
+
+.btn-primary
+{
+    @apply ml-6 
+}

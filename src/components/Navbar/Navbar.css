@@ -8,7 +8,7 @@
 }
 .nav-left
 {
-    @apply text-3xl;
+    @apply text-3xl cursor-pointer;
 }
 .nav-menuItems
 {
@@ -30,9 +30,9 @@
     @apply hover:underline underline-offset-4 cursor-pointer decoration-blue-500;
 }
 
-.btn-primary
+/* .btn-primary
 {
     @apply ml-6 
-}
+} */
 /* hover effect */
 /* responsive */

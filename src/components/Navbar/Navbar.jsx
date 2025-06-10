@@ -14,7 +14,7 @@ function Navbar() {
             <li className="menuItems">Skills</li>
             <li className="menuItems">Projects</li>
           </ul>
-          <Button />
+          <Button text="CONNECT"/>
         </div>
       </div>
     </nav>
@@ -22,3 +22,6 @@ function Navbar() {
 }
 
 export default Navbar;
+
+// navbar styles -> stick on the top.
+// 

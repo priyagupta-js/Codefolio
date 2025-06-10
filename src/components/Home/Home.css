@@ -1,5 +1,32 @@
 
-.home-content
+.home-container{
+    background-color: var(--color-bg) ;
+    color: var(--color-text);
+}
+.home-details
 {
-    @apply flex flex-col items-start
+    @apply flex py-10 pl-6 pr-48 mx-auto max-w-7xl justify-between ;
+    /* py-10 flex flex-col items-start; */
+}
+.portfolio-name{
+    @apply text-7xl tracking-normal font-medium;
+    line-height: 7.5rem;
+}
+
+.home-content .job-roles
+{
+    @apply text-3xl ;
+    line-height: 4rem;
+}
+
+.job-names
+{
+    color: var(--color-accent);
+}
+ 
+
+
+.profile-img
+{
+    @apply w-64;
 }
