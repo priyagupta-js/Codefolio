@@ -30,9 +30,10 @@ function Home()
       repeat={Infinity}
     />
     </h5>
-    <div className="btn">
-    <Button />
-    <button>Hire me</button>  
+    <div className="click-btn">
+    <Button text="MY WORK" className="work-btn"
+    />
+    <Button text="HIRE ME" className="hire-btn"/>
     </div>
     </div>
     <div className="home-profilePic">
@@ -45,13 +46,3 @@ function Home()
     );
 }
 export default Home;
-
-/*
-
- 
-const ExampleComponent = () => {
-  return (
-    
-  );
-};
-*/

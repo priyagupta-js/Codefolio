@@ -5,7 +5,7 @@
 }
 .home-details
 {
-    @apply flex py-10 pl-6 pr-48 mx-auto max-w-7xl justify-between ;
+    @apply flex py-28 pl-14 pr-48 mx-auto max-w-7xl justify-between ;
     /* py-10 flex flex-col items-start; */
 }
 .portfolio-name{
@@ -16,7 +16,7 @@
 .home-content .job-roles
 {
     @apply text-3xl ;
-    line-height: 4rem;
+    line-height: 4.5rem;
 }
 
 .job-names
@@ -30,3 +30,18 @@
 {
     @apply w-64;
 }
+
+.click-btn
+{
+    @apply flex py-8
+}
+
+.work-btn
+{
+    @apply ml-0 px-4 py-4
+}
+
+.hire-btn
+{
+  @apply px-4 py-4
+}  

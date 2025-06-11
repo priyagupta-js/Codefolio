@@ -1,6 +1,6 @@
 import '../../src/index.css';
 
-function Button({ text , onClick , type="button", className=""})
+function Button({ text , onClick , type="button", className="",children})
 {
     return(
         <div>
