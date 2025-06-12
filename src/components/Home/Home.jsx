@@ -19,10 +19,8 @@ function Home()
         1000, // Waits 1s
         ' MERN Stack Development', // Deletes 'One' and types 'Two'
         2000, // Waits 2s
-        ' Software Development', // Types 'Three' after deleting 'Two'
-        // () => {
-        //   console.log('Sequence completed');
-        // },
+        ' Software Development',// Types 'Three' after deleting 'Two'
+        2000, 
       ]}
       className="job-names"
       wrapper="span" 

@@ -27,12 +27,21 @@
 
 .menuItems
 {
-    @apply hover:underline underline-offset-4 cursor-pointer decoration-blue-500;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+.menuItems:hover
+{
+    text-decoration: underline;
+    color: var(--color-accent);
+}
 /* .btn-primary
 {
     @apply ml-6 
 } */
 /* hover effect */
 /* responsive */
+
+/* syntax to use customised color */
+/* text-[var(--color-accent)]; */
