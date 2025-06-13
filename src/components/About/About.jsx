@@ -3,7 +3,7 @@ function About() {
   return (
     <div className="About-section">
       <div className="section-heading">
-        <h1>About</h1>
+        <h1 className="flex items-center">About</h1>
       </div>
       <div className="about-left">
       <div className="about-image"></div>
