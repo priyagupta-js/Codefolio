@@ -13,6 +13,7 @@ function Navbar() {
             <li className="menuItems">About</li>
             <li className="menuItems">Skills</li>
             <li className="menuItems">Projects</li>
+            <span className="underline"></span>
           </ul>
           <Button text="CONNECT"/>
         </div>
