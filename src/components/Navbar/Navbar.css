@@ -4,6 +4,8 @@
     background-color: var(--color-navbar-bg);
     color: var(--color-text);
     @apply h-20 text-xl;
+    position:sticky;
+    top: 0px;
     
 }
 .nav-left
